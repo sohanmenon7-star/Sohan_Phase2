@@ -12,6 +12,7 @@ Disassemble this(link to a file).
 - After changing the directory to the one in which I stored the downloaded file, I used `objdump -d -Mintel debugger0_a | less`. This disassembled all the functions
 - Then I searched for the main function and then looked for the `eax` register, a line read `mov eax, 0x86342`, since I know how to read assembly, I undesrstood that this is the value moved into the `eax` register
 - After converting it into decimal, I obtained my answer
+<img width="1416" height="656" alt="image" src="https://github.com/user-attachments/assets/8296cd05-6750-4f0c-8e64-0cde72309741" />
 
 ```
 root@DESKTOP-AFFIDQC:~# cd /mnt/c/Users/SOHAN
