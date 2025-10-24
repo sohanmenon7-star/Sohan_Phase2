@@ -67,7 +67,7 @@ main:
 ## Flag:
 
 ```
-picoCTF{549698}
+picoCTF{0000005A}
 ```
 
 ## Concepts learnt:
