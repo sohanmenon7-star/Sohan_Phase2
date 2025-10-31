@@ -14,12 +14,13 @@ As an example, entering x = 34359738368 gives (y0, ..., y11), so the flag would 
 - I then indivisually solved the logic gates until I had completed the system
 - Red is for '0' and Blue is for '1'
 
-<img width="448" height="783" alt="image" src="https://github.com/user-attachments/assets/840ac019-1de3-4e69-a0ff-e281ea5adf57" />
+<img width="443" height="786" alt="image" src="https://github.com/user-attachments/assets/1f754a5f-be3c-497c-841f-7822bb6ef9b9" />
+
 
 ## Flag:
 
 ```
-nite{101101100111}
+nite{10010011000}
 ```
 
 ## Concepts learnt:
