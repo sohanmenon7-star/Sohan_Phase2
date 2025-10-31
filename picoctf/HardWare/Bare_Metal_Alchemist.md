@@ -36,8 +36,9 @@ Section header string table index: 11
 - In main, an input is given which undergoes bitwise operations(Doesnt really help)
 - I then saw the .text section hoping to find a string(The flag) by using `-j` alongside `avr-objdump` but to no avail
 - In search of other ways to access information, I stumbled across `simavr` which simulates microcontrollers in Linux
-- After installing this and learning a little about it, I ran `simavr -g -m atmega328p -f 16000000 firmware.elf` in one terminal and then connected in the another terminal and then examined the memory.
-- This gave me a lot of hex data, I converted this to readable language, Among the charaters I noticed the flag
+- I found an anomaly in 0x68 which could possibly mean that there was a hidden string buried in it, So now I knew where to look
+- After installing this and learning a little about it, I ran `simavr -g -m atmega328p -f 16000000 firmware.elf` in one terminal and then connected in the another terminal using `avr-gdb firmware.elf` and then examined the memory.
+- This gave me a lot of hex data, I converted this to readable language where I noticed the flag
 
 ## Flag:
 
